@@ -1,0 +1,65 @@
+/* Universal Selector */
+* {
+    color: purple;
+}
+
+/* Type Selector */
+div {
+    color: orange;
+}
+
+/* Class Selector */
+.alert-text {
+    color:red;
+}
+
+/* ID selector (elements can only had one ID, use sparingly (if at all) */
+#title {
+    background-color:red;
+}
+
+/* Grouping selector */
+.read, .unread {
+    color: white;
+    background-color: black;
+}
+
+.read {
+    /* unique declerations */
+}
+
+.unread {
+    /* unique declerations */
+}
+
+/* Chaining selectors */
+.subsection.header {
+    color: red;
+}
+
+.subsection#preview {
+    color: lime;
+}
+
+/* Descendant combinator */
+.ancestor .contents {
+    
+}
+
+/* Colors */
+p {
+    /* font families */
+    font-family: 'Times New Roman', Times, serif; 
+    /* adjust font size */
+    font-size: 40px;
+    /* adjust boldness of text */
+    font-weight: 600;
+    /* where to align text  */
+    text-align: center;
+    color: hsl(253, 100%, 81%);
+}
+
+img {
+    height: 300px;
+    width: auto;
+}

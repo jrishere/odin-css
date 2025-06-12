@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <!-- how to link external css to your html  -->
+    <link rel = "stylesheet" href = style.css>
+
+    <!-- internal css example  -->
+     <style>
+        .practice{
+            color: maroon;
+            background-color: blue;
+        }
+     </style>
+</head>
+<body>
+    <div>Hello world!</div>
+    <div>Hello again!</div>
+    <p>This one is a test paragraph</p>
+    <div>Okay bye</div>
+    <div class = "alert-text">Please agree to the TOS</div>
+    <div id = "title">My awesome 90s page</div>
+    <br/>
+    <div>
+        <div class = "subsection header">Latest posts</div>
+        <p class = "subsection" id = "preview">This is where a preview for a subsection might go</p>
+    </div>
+    <!-- Combinator example -->
+     <div class = "ancestor">
+        <!-- A -->
+         <div class = "contents">
+            <!-- B -->
+             <div class = "contents"><!-- C --></div>
+         </div>
+     </div>
+
+     <hr/>
+     <h1 class = "read">This is practice for images</h1>
+     <img src = "https://static.vecteezy.com/system/resources/previews/008/951/892/non_2x/cute-puppy-pomeranian-mixed-breed-pekingese-dog-run-on-the-grass-with-happiness-photo.jpg" alt = "Dog">
+
+     <div class ="contents"><!-- D --></div>
+
+     <!-- internal css example -->
+     <div class = "practice">Internal CSS Practice</div>
+
+     <!-- inline css example  -->
+      <div style ="color: purple; background-color: yellow;">Inline CSS Practice</div>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+/* rule 1,ID more specifc than class*/
+/* #subsection {
+    color: blue;
+} */
+
+/* rule 2, more specific because it is using more class selectors */
+/* .main .list {
+    color: red;
+} */
+
+#subsection {
+    color: blue;
+}
+
+/* not more specific. rule 2 has higher specificity because it also has a class selector */
+.main #subsection {
+    color:red;
+}

@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    /* makes it so padding and border is included in height and width */
+    box-sizing: border-box;
+}
+
+.box1 {
+    background-color: red;
+    /* space from content to border */
+    padding: 20px;
+    /* outline of the size of the border */
+    border: 20px solid purple;
+    /* sets the height and width of the content */
+    height: 200px;
+    width: 200px;
+    /* distance from other content on the page */
+    margin: 100px;
+    /* makes height and width account for padding and border size */
+    text-align: center;
+}
+
+.box2 {
+    background-color: blue;
+    padding: 20px;
+    /* outline of the size of the border */
+    border: 20px solid purple;
+    /* sets the height and width of the content */
+    height: 100px;
+    width: 100px;
+    /* margin collapses between two elements that are next to each other */
+    /* larger margin will be used */
+    margin: 70px;
+    /* the padding and border size will be added to width and height */
+    box-sizing: content-box;
+}
