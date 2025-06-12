@@ -1,0 +1,29 @@
+* {
+    margin: 0 auto; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    padding: 30px;
+    text-align: center;
+    color: #EEEEEE;
+    margin: 0 auto;
+    display: block;
+}
+.introduction {
+    background-color: hsl(180, 100%, 19%);
+}
+
+.main-content {
+    background-color: cornflowerblue;
+}
+
+.contact-us {
+    background-color: darkslateblue;
+}
+
+.highlight {
+    border: 1px solid red;
+    background-color: yellow;
+}
